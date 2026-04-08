@@ -1,5 +1,5 @@
 import json
-
+# Filtering by age added
 def filter_users_by_name(name):
     with open("users.json", "r") as file:
         users = json.load(file)
